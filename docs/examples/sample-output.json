@@ -1,0 +1,25 @@
+{
+  "project": "Forklore",
+  "example_type": "sanitized real pipeline output summary",
+  "source_media": "withheld",
+  "processing": {
+    "sampled_frame_records": 36,
+    "transcript_alignment_records": 36,
+    "shot_change_candidate_count": 18,
+    "grouped_boundary_count": 16,
+    "shot_detection_threshold": 0.3,
+    "deduplication_gap_seconds": 1.0
+  },
+  "sample_candidate_timestamps_seconds": [
+    5.817,
+    15.567,
+    20.917,
+    26.917,
+    33.267
+  ],
+  "notes": [
+    "Derived from an existing local processing run.",
+    "Source media, local paths, hashes, and transcript text are omitted.",
+    "Shot-change candidates and boundaries are not semantic scene understanding."
+  ]
+}

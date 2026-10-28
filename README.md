@@ -187,3 +187,16 @@ The project is evolving as the underlying pipeline develops. Issues, technical f
 ## License
 
 No open-source license has been applied yet. All rights are reserved by default unless a separate license is added.
+
+## Architecture and Example Output
+
+Explore the [current pipeline architecture](docs/architecture.md) to see how
+media probing, batch processing, frame and audio extraction, transcription,
+shot-change detection, optional OCR, and validation fit together.
+
+A [sanitized sample output](docs/examples/sample-output.json) demonstrates
+counts and candidate timestamps from a real local processing run. Source media,
+private paths, file hashes, and transcript text are excluded.
+
+Shot-change detection identifies visual transition candidates; it does not by
+itself establish semantic scene boundaries or narrative understanding.
