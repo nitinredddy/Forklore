@@ -1,0 +1,29 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Raw videos and generated data
+data/
+logs/
+outputs/
+artifacts/
+frames/
+transcripts/
+
+# Generated metadata and temporary files
+*.log
+*.tmp
+.DS_Store
